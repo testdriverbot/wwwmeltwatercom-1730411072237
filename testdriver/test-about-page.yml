@@ -1,0 +1,20 @@
+version: 4.0.78
+steps:
+  - prompt: Click on "About".
+    commands:
+      - command: hover-text
+        text: About
+        description: link in the header
+        action: click
+  - prompt: Click on "About".
+    commands:
+      - command: hover-text
+        text: About
+        description: link in the header
+        action: click
+  - prompt: Click on "About".
+    commands:
+      - command: hover-text
+        text: About
+        description: link in the header
+        action: double-click
