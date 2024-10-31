@@ -1,0 +1,20 @@
+version: 4.0.78
+steps:
+  - prompt: Click on "Customers".
+    commands:
+      - command: hover-text
+        text: Customers
+        description: link in the header
+        action: click
+  - prompt: Click on "Customers".
+    commands:
+      - command: hover-text
+        text: Customers
+        description: link in the header
+        action: click
+  - prompt: Click on "Customers".
+    commands:
+      - command: hover-text
+        text: Customers
+        description: link in the header
+        action: double-click
