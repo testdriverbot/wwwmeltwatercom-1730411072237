@@ -1,0 +1,7 @@
+version: 4.0.78
+steps:
+  - prompt: 'Click on the menu icon  # Use the content of the file from the environment'
+    commands:
+      - command: hover-image
+        description: menu icon in the top right corner
+        action: click
