@@ -1,0 +1,22 @@
+version: 4.0.78
+steps:
+  - prompt: Click "Request Demo" link.
+    commands:
+      - command: hover-text
+        text: Request Demo
+        description: link in the header
+        action: click
+  - prompt: Click "Request Demo" link.
+    commands:
+      - command: hover-text
+        text: Request Demo
+        description: link in the header
+        action: click
+  - prompt: Click "Request Demo" link.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Request Demo
+        description: link in the header
+        action: click
