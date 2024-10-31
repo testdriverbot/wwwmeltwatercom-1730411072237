@@ -1,0 +1,22 @@
+version: 4.0.78
+steps:
+  - prompt: Click on "Resources".
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+  - prompt: Click on "Resources".
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: double-click
+  - prompt: Click on "Resources".
+    commands:
+      - command: hover-text
+        text: Resources
+        description: link in the header
+        action: click
+      - command: wait
+        timeout: 2000
