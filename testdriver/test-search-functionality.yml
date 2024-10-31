@@ -1,0 +1,17 @@
+version: 4.0.78
+steps:
+  - prompt: Locate and click the search icon.
+    commands:
+      - command: hover-image
+        description: menu icon in the header
+        action: click
+  - prompt: Locate and click the search icon.
+    commands:
+      - command: hover-image
+        description: search icon in the webpage header
+        action: click
+  - prompt: Locate and click the search icon.
+    commands:
+      - command: hover-image
+        description: search icon in the browser toolbar
+        action: click
