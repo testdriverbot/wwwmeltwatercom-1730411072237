@@ -1,0 +1,20 @@
+version: 4.0.78
+steps:
+  - prompt: Click "OUR TECHNOLOGY" button.
+    commands:
+      - command: hover-text
+        text: OUR TECHNOLOGY
+        description: button to view technology details
+        action: click
+  - prompt: Click "OUR TECHNOLOGY" button.
+    commands:
+      - command: hover-text
+        text: OUR TECHNOLOGY
+        description: button to view technology details
+        action: click
+  - prompt: Click "OUR TECHNOLOGY" button.
+    commands:
+      - command: hover-text
+        text: OUR TECHNOLOGY
+        description: button to view technology details
+        action: click
