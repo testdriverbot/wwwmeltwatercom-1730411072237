@@ -1,0 +1,28 @@
+version: 4.0.78
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Assert that the Meltwater logo is visible.
+    commands:
+      - command: assert
+        expect: the Meltwater logo is visible
+  - prompt: Click "Accept All" on the cookie banner.
+    commands:
+      - command: hover-text
+        text: Accept All
+        description: button on the cookie banner
+        action: click
+  - prompt: Click "Accept All" on the cookie banner.
+    commands:
+      - command: hover-text
+        text: Accept All
+        description: button on the cookie banner
+        action: click
+  - prompt: >-
+      Assert that the webpage loads correctly without errors.  # Use the content
+      of the file from the environment
+    commands:
+      - command: assert
+        expect: the webpage loads correctly without errors
